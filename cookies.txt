@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+global.kawasaki.com	TRUE	/	FALSE	1999999999	JSESSIONID	619D254285E3A11EE1D649E504708B3C
+global.kawasaki.com	TRUE	/	FALSE	1999999999	visitorid	20221015015450471596
+

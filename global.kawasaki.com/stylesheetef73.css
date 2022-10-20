@@ -1,0 +1,172 @@
+
+@charset "utf-8";
+/* CSS Document */
+/* zoom button */
+.modal-base{
+	position: relative;
+	display: block;
+	z-index:1;
+}
+.msie8 .modal-viewer {
+	position:relative;
+	z-index:-1;
+}
+
+.modal-base:after{
+	display: block;
+	content: ' ';
+	width: 18px;
+	height: 18px;
+	background: url(common/img/modal_viewer_zoom.png) no-repeat 0 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	zoom: 1;
+	z-index:10;
+}
+
+
+
+
+/* modal window */
+
+.modal-viewer{
+	cursor:pointer;
+}
+
+.modal-viewer:hover{
+	opacity:0.75;
+}
+
+.gNavbasegray{
+	position:absolute;
+	z-index:65000;
+	top:0px;
+	background:rgb(0,0,0);
+	width:100%;
+	opacity: 0.75;
+}
+
+div.rpModal{
+	background-color:#fff;
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:0.8em;
+	z-index:65535;
+	padding-top:14px;
+	padding-bottom:14px;
+
+}
+div.rpModal .m-visual{
+	display:inline-block;
+	cursor:pointer;
+	text-align:center;
+}
+
+.modal-naviLeft,.modal-naviRight{
+	display:inline-block;
+	width:53px!important;
+	height:100%;
+	position:relative;
+	vertical-align: top;
+}
+.modal-naviLeft a, .modal-naviRight a{
+	border:none;
+	display:block;
+}
+
+.modal-naviLeft a.modal-navi,
+.modal-naviRight a.modal-navi{
+	width:23px;
+	position: absolute;
+	left:14px;
+}
+
+.modal-naviRight a.modal-close{
+	position: absolute;
+	width:21px;
+	top:0px;
+	left:14px;
+}
+
+.modal-naviLeft a img,.modal-naviRight a img{
+	border:none;
+}
+
+.modal-naviRight div.modal-pages{
+	width:100%;
+	text-align:center;
+	vertical-align:bottom;
+	position: absolute;
+}
+
+.modalClose a img{
+	border:none;
+}
+
+div#ajaxLoader{
+	position:absolute;
+	color:#fff;
+	width:160px;
+	height:46px;
+	font-size:16px;
+}
+
+.m-visual a.modal-close{
+	display:none;
+}
+.m-visual .modal-pages{
+	display:none;
+}
+.modal-naviRight a.modal-close{
+	display:block;
+}
+.modal-naviRight .modal-pages{
+	display:block;
+}
+
+div.rpModal .m-visual img.key-v'{
+	width:100%;
+}
+
+@media only screen and (max-width: 639px) {
+div.rpModal{
+	width:96%;
+}
+.modal-naviLeft,.modal-naviRight{
+	width:10%!important;
+}
+
+.modal-navi{
+	left:8px!important;
+	width:60%!important;
+}
+
+.modal-navi img{
+	width:100%;
+}
+
+
+.modal-naviRight a.modal-close{
+	display:none;
+}
+.m-visual a.modal-close{
+	display:block;
+	margin-bottom:10px;
+}
+.m-visual .modal-pages{
+	display:block;
+	margin-top:10px;
+}
+
+div.rpModal .m-visual {
+	width:80%!important;
+}
+div.rpModal .m-visual img.key-v'{
+	width:100%;
+}
+
+}
+
+

@@ -1,0 +1,454 @@
+
+@charset "utf-8";
+
+/* ============================================
+    keyvisualArea
+============================================ */
+
+#keyvisualArea {
+    background: url(../../en/img/index_hero01.jpg) no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+
+#keyvisualArea .textArea {
+	display: table;
+	width: 980px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+#keyvisualArea .inner {
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+}
+
+#keyvisualArea .inner .button {
+	position: absolute;
+	left: 225px;
+}
+
+/* #keyvisualArea a {
+    display: block;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+ */
+
+#keyvisualArea .captionBox {
+    width: 460px;
+    box-sizing: border-box;
+    position: relative;
+    /* position: relative; */
+    /* top: 50%; */
+    /* left: 5%; */
+    padding: 40px;
+    background: rgba(0,0,0, 0.7);
+    /*height: 240px;*/
+    margin-top: -38px;
+	color: #fff;
+}
+.msie8 #keyvisualArea .captionBox {
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#B3000000,EndColorStr=#B3000000);/*IE8以下用*/ !important;
+}
+
+
+
+#keyvisualArea .captionBox .title {
+	margin: 0;
+    border-bottom: 1px solid #545454;
+    padding: 0 0 0.25em;
+    line-height: 1;
+	font-family: ClanWeb-Book;
+	color: #fff;
+}
+
+#keyvisualArea .captionBox .description {
+    padding: 1.2em 0 0;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+}
+
+#keyvisualArea .more a {
+	display: inline-block;
+    color: #2d3030;
+    background: #e7e7e8 url(../img/icon_arrow_01.png) no-repeat 90% center;
+    
+	/* position: absolute; */
+    bottom: -38px;
+    right: 34px;
+    padding: 0 2em 0 1em;
+	width: auto;
+	height: 38px;
+    line-height: 38px;
+	font-family: ClanWeb-Book;
+	font-size: 133.33%;
+	overflow: visible;
+	text-decoration: none;
+}
+
+#keyvisualArea .more a:before {
+    content: "";
+    background: url(../img/bg_triangle_01_left.png) no-repeat left center;
+    position: absolute;
+    left: -24px;
+    width: 24px;
+    height: 38px;
+}
+#keyvisualArea .more a:after {
+    content: "";
+    background: url(../img/bg_triangle_01_right.png) no-repeat right center;
+    position: absolute;
+    right: -24px;
+    width: 24px;
+    height: 38px;
+}
+
+#keyvisualArea.content {
+    height: 300px;
+}
+
+#keyvisualArea.content .textArea {
+    height: 300px;
+}
+
+#keyvisualArea.content .captionBox {
+	margin-top: 0;
+}
+
+#keyvisualArea.corporate {
+    background-image: url(../img/keyvisual_corporate_001.jpg);
+}
+
+#keyvisualArea.profile {
+    background-image: url(../img/keyvisual_profile_001.jpg);
+}
+
+#keyvisualArea.investors {
+    background-image: url(../img/keyvisual_corporate_001.jpg);
+}
+
+#keyvisualArea.contacts {
+    background-image: url(../img/keyvisual_contacts_001.jpg);
+}
+#keyvisualArea.energy {
+    background-image: url(../img/keyvisual_energy_001.jpg);
+}
+#keyvisualArea.mobility {
+    background-image: url(../img/keyvisual_mobility_001.jpg);
+}
+#keyvisualArea.industrial_equipment {
+    background-image: url(../img/keyvisual_industrial_equipment_001.jpg);
+}
+
+#keyvisualArea.rd {
+    background-image: url(../img/keyvisual_rd_001.jpg);
+}
+
+#keyvisualArea.events {
+    background-image: url(../img/keyvisual_events_001.jpg);
+}
+
+#keyvisualArea.news {
+    background-image: url(../img/keyvisual_news_001.jpg);
+}
+
+#keyvisualArea.sustainability {
+    background-image: url(../img/keyvisual_sustainability_001.jpg);
+}
+
+#keyvisualArea.careers {
+    background-image: url(../img/keyvisual_careers_001.jpg);
+}
+
+#keyvisualArea.investors {
+    background-image: url(../img/keyvisual_ir_001.jpg);
+}
+
+#keyvisualArea.leisure{
+    background-image: url(../img/keyvisual_leisure_001.jpg);
+}
+
+#keyvisualArea.groupvision {
+    background-image: url(../img/keyvisual_groupvision_001.html);
+}
+
+/* ============================================
+    bodyエリアの通し
+============================================ */
+.full #contentsArea {
+	width: auto;
+}
+
+.full #contentsArea .row {
+	width: 980px;
+	margin: 0 auto;
+/* 	padding: 20px; */
+	box-sizing: border-box;
+}
+
+.full #contentsArea hr {
+	margin: 0;
+	line-height: 0;
+}
+
+.full #newsAndEventsArea {
+	width: 980px;
+	margin: 0 auto 40px;
+	padding-bottom: 45px;
+}
+
+
+/* ============================================
+    サイトトップ
+============================================ */
+#home.top .line {
+	vertical-align: top;
+	/*height: 210px;*/
+}
+
+/*keyvisualArea*/
+#home.top #keyvisualArea .inner {
+	vertical-align: bottom;
+}
+
+#home.top #keyvisualArea .captionBox {
+	width: 453px;
+	background: none !important;
+	margin: 0;
+	padding: 40px 19px 28px;
+}
+
+.msie8 #home.top #keyvisualArea .captionBox {
+	background: none !important;
+	filter: none;
+}
+
+#home.top #keyvisualArea .captionBox .title {
+	font-family: 'ClanWeb-Bold';
+	text-shadow: 0 2px 2px rgba(13,4,7,.9);
+	font-size: 320%;
+	border-bottom: #fff 1px solid;
+	padding: 0 0 0.15em;
+}
+
+#home.top #keyvisualArea .captionBox .title a {
+	color: #fff;
+	text-decoration: none;
+	background: url(../img/ic_arrow_09.png) no-repeat right center;
+	display: inline-block;
+	padding: 0 40px 0 0;
+}
+
+#home.top #keyvisualArea .captionBox .description {
+	font-family: 'ClanWeb-Book';
+	text-shadow: 0 2px 2px rgba(13,4,7,.9);
+}
+
+.msie8 #home.top #keyvisualArea .captionBox .description,
+.msie9 #home.top #keyvisualArea .captionBox .description {
+	font-family: 'ClanWeb-News';
+}
+
+
+/* ============================================
+    Mobilityトップ
+============================================ */
+.full.mobility #contentsArea,
+.full.mobility #keyvisualArea {
+	margin-bottom: 0;
+}
+
+.full.mobility .bg {
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 275px;
+}
+
+.full.mobility .bg.marine {
+	height: 310px;
+}
+	
+.full.mobility .air { background-image: url(../../en/mobility/img/index_bg01.jpg);}
+.full.mobility .rail { background-image: url(../../en/mobility/img/index_bg02.jpg);}
+.full.mobility .marine { background-image: url(../../en/mobility/img/index_bg03.jpg);}
+
+.full.mobility .bg .row.block {
+	padding-top: 39px;
+}
+
+.full.mobility .bg .row.block h1 {
+	margin-bottom: 15px;
+	line-height: 1;
+} 
+
+.full.mobility .bg .row.block p {
+	font-size: 80%;
+}
+
+.full.mobility .bg .row.block .linkBtn_04 {
+	margin-top: 30px;
+}
+
+/* ============================================
+    News & Eventsトップ
+============================================ */
+.newsroom #newsAndEventsArea {
+	margin-bottom: 0;
+}
+
+#newsAndEventsArea .seeAll.beside {
+	top: 25px;
+	right: auto;
+	bottom: auto;
+	left: 7em;
+}
+
+/* ==============================
+    Media Queries
+   ============================== */
+
+@media only screen and (max-width: 640px) { /* device-width: 320px ・｡ｦ639px  for Smartphone */
+
+/* ============================================
+    keyvisualArea(Media Querie)
+============================================ */
+
+#keyvisualArea {
+    height: 205px !important;
+    margin-bottom: 10px;
+}
+
+#keyvisualArea .textArea,
+#keyvisualArea.content .textArea {
+    display: table;
+    width: 100%;
+    height: 205px;
+}
+
+#keyvisualArea .inner .button {
+	left: 17%;
+}
+
+#keyvisualArea .captionBox {
+    width: 59.7656250000%;
+    max-height: 70%;
+    left: 2%;
+    padding: 0.5em;
+    background: rgba(0,0,0, 0.7);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#keyvisualArea.corporate a .captionBox {
+    max-height: 90%;
+}
+
+#keyvisualArea a .captionBox .title {
+	text-shadow: 0 1px 1px rgba(13,4,7,.9);
+    padding: 0 0 0.25em;
+    line-height: 1;
+}
+
+#keyvisualArea a .captionBox .description {
+    padding: 0.5em 0 0;
+    line-height: 1.2;
+}
+
+#keyvisualArea .more a {
+    bottom: -19px;
+    right: 15px;
+    padding: 0 1.2em 0 0.5em;
+    height: 26px !important;
+    line-height: 26px;
+    font-size: 100%;
+    background: #E7E7E8 url("../img/icon_arrow_01.png") no-repeat 95% center;
+    background-size: 4px auto;
+}
+#keyvisualArea .more a:before {
+    height: 26px;
+    left: -20px;
+}
+#keyvisualArea .more a:after {
+    height: 26px;
+    right: -20px;
+}
+
+
+/* ============================================
+    bodyエリアの通し
+============================================ */
+.full #contentsArea #newsAndEventsArea .row {
+	width: auto;
+	margin-bottom: 40px;
+}
+
+.full #newsAndEventsArea {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.full #contentsArea hr {
+	margin: 20px 0;
+}
+
+/* ============================================
+    サイトトップ
+============================================ */
+#home.top #keyvisualArea .inner {
+	vertical-align: middle;
+}
+
+#home.top #keyvisualArea .captionBox {
+    width: 59.7656250000%;
+    padding: 0.5em;
+}
+
+#home.top #keyvisualArea .captionBox .title {
+	font-size: 200%;
+    padding: 0 0 0.2em;
+    line-height: 1;
+}
+
+#home.top #keyvisualArea .captionBox .title a {
+	height: auto !important;
+	display: inline-block;
+	background: url(../img/ic_arrow_09.png) no-repeat right center;
+	background-size: auto 1em;
+}
+ 
+#home.top #keyvisualArea .captionBox .title a .icon_outerlink{
+	width: 25px;
+	height: auto;
+}
+
+#home.top #keyvisualArea .captionBox .description {
+	font-family: 'ClanWeb-News';
+	font-size: 85%;
+	text-shadow: 0 1px 0 #000;
+	padding: 0.5em 0 0;
+}
+
+
+/* ============================================
+    Mobilityトップ(Media Queries)
+============================================ */
+.full.mobility .col_1of2,
+.full.mobility .col_40_l {
+	width: 100%;
+}
+
+.full.mobility .bg {
+	background-position: right top;
+	height: auto;
+	padding-bottom: 10px;
+	background-size: 130%;
+}
+
+}
+
+
+

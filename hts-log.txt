@@ -1,0 +1,38 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 14 Oct 2022 09:54:10 at https://global.kawasaki.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://global.kawasaki.com/ -O1 "C:\10Intership\heavy industrt 1" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:56:57	Error: 	Exit requested by shell or user
+09:56:58	Warning: 	File not added due to mirror cancel: https://global.kawasaki.com/en/corp/profile/network/index.html?region=noselect&business=gl-b999
+09:57:00	Warning: 	Moved Permanently for https://global.kawasaki.com/en/stories/articles/vol47/
+09:57:00	Warning: 	File has moved from https://global.kawasaki.com/en/stories/articles/vol47/ to https://global.kawasaki.com/en/changingforward/
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main13.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main14.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main15.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main16.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main17.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main18.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main19.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main20.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main13-sp.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main14-sp.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main15-sp.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main16-sp.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main17-sp.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main18-sp.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main19-sp.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/index_main20-sp.jpg (from https://global.kawasaki.com/common/css/mainvisual.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/Version (from https://global.kawasaki.com/common/js/ua.js)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/ (from https://global.kawasaki.com/common/js/modal_viewer.js)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/modal_viewer_prev.png (from https://global.kawasaki.com/common/js/modal_viewer.js)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/modal_viewer_next.png (from https://global.kawasaki.com/common/js/modal_viewer.js)
+09:57:01	Error: 	"Bad Request" (400) at link www.googletagmanager.com/gtm.js?id= (from https://global.kawasaki.com/common/js/ga_tr_code.js)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/common/img/keyvisual_groupvision_001.jpg (from https://global.kawasaki.com/common/css/top.css)
+09:57:01	Error: 	"Not Found" (404) at link https://global.kawasaki.com/en/img/ (from https://global.kawasaki.com/common/js/visual_switching_v2.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 53 seconds : 383 links scanned, 358 files written (19520302 bytes overall) [14247223 bytes received at 82353 bytes/sec], 7830016 bytes transferred using HTTP compression in 173 files, ratio 23%, 14.2 requests per connection
+(24 errors, 3 warnings, 0 messages)
